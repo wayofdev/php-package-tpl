@@ -1,0 +1,100 @@
+# leave empty to disable
+# -v - verbose;
+# -vv - more details
+# -vvv - enable connection debugging
+DEBUG_VERBOSITY ?=
+
+DOCKER_CMD =
+
+COMPOSER_RUN = $(DOCKER_CMD) composer
+
+ifneq (,$(findstring xterm,${TERM}))
+	BLACK := $(shell tput -Txterm setaf 0)
+	RED := $(shell tput -Txterm setaf 1)
+	GREEN := $(shell tput -Txterm setaf 2)
+	YELLOW := $(shell tput -Txterm setaf 3)
+	LIGHTPURPLE := $(shell tput -Txterm setaf 4)
+	PURPLE := $(shell tput -Txterm setaf 5)
+	BLUE := $(shell tput -Txterm setaf 6)
+	WHITE := $(shell tput -Txterm setaf 7)
+	RST := $(shell tput -Txterm sgr0)
+else
+	BLACK := ""
+	RED := ""
+	GREEN := ""
+	YELLOW := ""
+	LIGHTPURPLE := ""
+	PURPLE := ""
+	BLUE := ""
+	WHITE := ""
+	RST := ""
+endif
+MAKE_LOGFILE = /tmp/wayofdev-php-package-tpl.log
+MAKE_CMD_COLOR := $(BLUE)
+
+help:
+	@echo 'Management commands for package:'
+	@echo 'Usage:'
+	@echo '    ${MAKE_CMD_COLOR}make${RST}                       Setups dependencies for fresh-project, like composer install, git hooks and others...'
+	@grep -E '^[a-zA-Z_0-9%-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "    ${MAKE_CMD_COLOR}make %-21s${RST} %s\n", $$1, $$2}'
+	@echo
+	@echo '    📑 Logs are stored in      $(MAKE_LOGFILE)'
+	@echo
+	@echo '    📦 Package                 php-package-tpl (github.com/wayofdev/php-package-tpl)'
+	@echo '    🤠 Author                  Andrij Orlenko (github.com/lotyp)'
+	@echo '    🏢 ${YELLOW}Org                     wayofdev (github.com/wayofdev)${RST}'
+.PHONY: help
+
+all: install hooks
+.PHONY: all
+
+# Composer
+# ------------------------------------------------------------------------------------
+install: ## Installs composer dependencies
+	$(COMPOSER_RUN) install
+.PHONY: install
+
+update: ## Updates composer dependencies by running composer update command
+	$(COMPOSER_RUN) update
+.PHONY: update
+
+# Testing
+# ------------------------------------------------------------------------------------
+cs-diff: ## Runs php-cs-fixer in dry-run mode and shows diff which will by applied
+	$(COMPOSER_RUN) cs-diff
+.PHONY: cs-diff
+
+cs-fix: ## Fixes code to follow coding standards using php-cs-fixer
+	$(COMPOSER_RUN) cs-fix
+.PHONY: cs-fix
+
+stan: ## Runs phpstan – static analysis tool
+	$(COMPOSER_RUN) stan
+.PHONY: stan
+
+test: ## Run project php-unit tests
+	$(COMPOSER_RUN) test
+.PHONY: test
+
+test-cc: ## Run project php-unit tests in coverage mode and build report
+	XDEBUG_MODE="coverage" $(COMPOSER_RUN) test-cc
+.PHONY: test-cc
+
+# Yaml Actions
+# ------------------------------------------------------------------------------------
+lint: ## Lints yaml files inside project
+	yamllint .
+.PHONY: lint
+
+# Git Actions
+# ------------------------------------------------------------------------------------
+hooks: ## Install git hooks from pre-commit-config
+	pre-commit install
+	pre-commit autoupdate
+.PHONY: hooks
+
+# Docker Actions
+# ------------------------------------------------------------------------------------
+ssh: ## Login inside running docker container
+	$(DOCKER_CONNECT) sh
+.PHONY: ssh
