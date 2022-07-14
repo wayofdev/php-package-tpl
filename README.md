@@ -25,7 +25,7 @@ This is minimal PHP template which is used by other PHP projects in wayofdev org
 
 If you **like/use** this package, please consider **starring** it. Thanks!
 
-<br>
+![Screenshot](assets/screenshot.png)
 
 ## 💿 Installation
 
