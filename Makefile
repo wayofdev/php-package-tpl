@@ -8,16 +8,16 @@ DOCKER_CMD =
 
 COMPOSER_RUN = $(DOCKER_CMD) composer
 
-ifneq (,$(findstring xterm,${TERM}))
-	BLACK := $(shell tput -Txterm setaf 0)
-	RED := $(shell tput -Txterm setaf 1)
-	GREEN := $(shell tput -Txterm setaf 2)
-	YELLOW := $(shell tput -Txterm setaf 3)
-	LIGHTPURPLE := $(shell tput -Txterm setaf 4)
-	PURPLE := $(shell tput -Txterm setaf 5)
-	BLUE := $(shell tput -Txterm setaf 6)
-	WHITE := $(shell tput -Txterm setaf 7)
-	RST := $(shell tput -Txterm sgr0)
+ifneq ($(TERM),)
+	BLACK := $(shell tput setaf 0)
+	RED := $(shell tput setaf 1)
+	GREEN := $(shell tput setaf 2)
+	YELLOW := $(shell tput setaf 3)
+	LIGHTPURPLE := $(shell tput setaf 4)
+	PURPLE := $(shell tput setaf 5)
+	BLUE := $(shell tput setaf 6)
+	WHITE := $(shell tput setaf 7)
+	RST := $(shell tput sgr0)
 else
 	BLACK := ""
 	RED := ""
