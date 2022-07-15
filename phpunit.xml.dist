@@ -5,6 +5,7 @@
          backupGlobals="false"
          colors="true"
          verbose="true"
+         cacheResultFile=".build/phpunit/result.cache"
          failOnWarning="true">
     <coverage>
         <include>
