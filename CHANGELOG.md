@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/wayofdev/php-package-tpl/compare/v1.1.0...v1.2.0) (2022-07-15)
+
+
+### Features
+
+* create code of conduct ([f507a1b](https://github.com/wayofdev/php-package-tpl/commit/f507a1bc2ddc1af81e1ffd62b35596c412c4f5b0))
+
+
+### Documentation
+
+* delete custom coc ([cfaf8cd](https://github.com/wayofdev/php-package-tpl/commit/cfaf8cd43742e8e1f38a6cf302197e1ca105c5d6))
+* moving coc ([f4b0d3a](https://github.com/wayofdev/php-package-tpl/commit/f4b0d3a8bd80a913a8b2701a13b9341473ff6be0))
+
 ## [1.1.0](https://github.com/wayofdev/php-package-tpl/compare/v1.0.0...v1.1.0) (2022-07-15)
 
 
