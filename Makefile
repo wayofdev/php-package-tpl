@@ -48,6 +48,10 @@ help:
 all: install hooks
 .PHONY: all
 
+prepare:
+	mkdir -p .build/php-cs-fixer
+.PHONY: prepare
+
 # Composer
 # ------------------------------------------------------------------------------------
 install: ## Installs composer dependencies
@@ -60,11 +64,11 @@ update: ## Updates composer dependencies by running composer update command
 
 # Testing
 # ------------------------------------------------------------------------------------
-cs-diff: ## Runs php-cs-fixer in dry-run mode and shows diff which will by applied
+cs-diff: prepare ## Runs php-cs-fixer in dry-run mode and shows diff which will by applied
 	$(COMPOSER_RUN) cs-diff
 .PHONY: cs-diff
 
-cs-fix: ## Fixes code to follow coding standards using php-cs-fixer
+cs-fix: prepare ## Fixes code to follow coding standards using php-cs-fixer
 	$(COMPOSER_RUN) cs-fix
 .PHONY: cs-fix
 
