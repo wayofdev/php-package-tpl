@@ -79,6 +79,10 @@ stan: ## Runs phpstan – static analysis tool
 	$(COMPOSER_RUN) stan
 .PHONY: stan
 
+stan-ci:
+	$(COMPOSER_RUN) stan-ci
+.PHONY: stan-ci
+
 test: ## Run project php-unit and pest tests
 	$(COMPOSER_RUN) test
 .PHONY: test
