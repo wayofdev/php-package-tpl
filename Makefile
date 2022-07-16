@@ -76,7 +76,7 @@ cs-fix: prepare ## Fixes code to follow coding standards using php-cs-fixer
 .PHONY: cs-fix
 
 stan: ## Runs phpstan – static analysis tool
-	$(COMPOSER_RUN) stan --error-format=$(PHPSTAN_OUTPUT_FORMAT)
+	$(COMPOSER_RUN) stan
 .PHONY: stan
 
 test: ## Run project php-unit and pest tests
