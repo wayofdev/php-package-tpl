@@ -32,6 +32,11 @@ jobs:
           tools: composer:v2
           coverage: none
 
+      - name: Setup problem matchers
+        run: |
+          echo "::add-matcher::${{ runner.tool_cache }}/php.json"
+          echo "::add-matcher::${{ runner.tool_cache }}/phpunit.json"
+
       - name: Load cached dependencies
         id: cached-composer-dependencies
         uses: actions/cache@v3
@@ -46,10 +51,12 @@ jobs:
       - name: Run coding standards task
         run: make cs-diff
 
-      - name: Execute phpunit tests
+      - name: Execute phpunit and pest tests
         run: make test
 
       - name: Run static analysis using phpstan
         run: make stan
+        env:
+          PHPSTAN_OUTPUT_FORMAT: github
 
 ...
