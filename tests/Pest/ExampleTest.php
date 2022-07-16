@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-test('example', static function (): void {
+test('example', function (): void {
     expect(true)->toBeTrue();
 });
