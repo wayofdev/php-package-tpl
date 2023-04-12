@@ -103,9 +103,3 @@ hooks: ## Install git hooks from pre-commit-config
 	pre-commit install
 	pre-commit autoupdate
 .PHONY: hooks
-
-# Docker Actions
-# ------------------------------------------------------------------------------------
-ssh: ## Login inside running docker container
-	$(DOCKER_CONNECT) sh
-.PHONY: ssh
