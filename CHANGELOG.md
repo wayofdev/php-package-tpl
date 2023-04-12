@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.3.0](https://github.com/wayofdev/php-package-tpl/compare/v1.2.0...v1.3.0) (2023-04-12)
+
+
+### Features
+
+* adding pest ([f2727ff](https://github.com/wayofdev/php-package-tpl/commit/f2727ff8b96deb2f1d4dcf8906d0329a58507687))
+* updating dependencies, renovate auto-merge ([fd19d68](https://github.com/wayofdev/php-package-tpl/commit/fd19d68caec2efb9bc5c2b792c1b837aa0c6f69c))
+
+
+### Bug Fixes
+
+* disable static lambda fixer ([98cafbd](https://github.com/wayofdev/php-package-tpl/commit/98cafbdd80e03a14a1e2541deb8ab48b9bcb0abf))
+* missing empty dir ([bbe0c83](https://github.com/wayofdev/php-package-tpl/commit/bbe0c83af3dcbf2a785b4d80b8dca6ec9de8b23f))
+* phpstan wrong output format passing ([16c72b7](https://github.com/wayofdev/php-package-tpl/commit/16c72b7e7823099a9b8bc38d7ccc477a23f3f518))
+* stan fixes ([d6367f5](https://github.com/wayofdev/php-package-tpl/commit/d6367f5d2b8a8b9820aa1e67efb8c874a563093a))
+
+
+### Documentation
+
+* add downloads badge ([3a405a6](https://github.com/wayofdev/php-package-tpl/commit/3a405a64f8b421bc9162d1bea03f828c55810edc))
+
 ## [1.2.0](https://github.com/wayofdev/php-package-tpl/compare/v1.1.0...v1.2.0) (2022-07-15)
 
 
