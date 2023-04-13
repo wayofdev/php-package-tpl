@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/wayofdev/php-package-tpl/compare/v1.3.0...v1.3.1) (2023-04-13)
+
+
+### Bug Fixes
+
+* create-release not running ([f6a473e](https://github.com/wayofdev/php-package-tpl/commit/f6a473ee3664c045b3306e245d86ae41087bce1c))
+
 ## [1.3.0](https://github.com/wayofdev/php-package-tpl/compare/v1.2.0...v1.3.0) (2023-04-12)
 
 
