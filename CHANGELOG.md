@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.10](https://github.com/wayofdev/php-package-tpl/compare/v1.3.9...v1.3.10) (2023-04-19)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/extension-installer to v1.3.0 ([c8ba164](https://github.com/wayofdev/php-package-tpl/commit/c8ba164b06184305782cd8c8879ce82a2a15e890))
+
 ## [1.3.9](https://github.com/wayofdev/php-package-tpl/compare/v1.3.8...v1.3.9) (2023-04-18)
 
 
