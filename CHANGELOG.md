@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.12](https://github.com/wayofdev/php-package-tpl/compare/v1.3.11...v1.3.12) (2023-04-19)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/phpstan to v1.10.14 ([cc942b9](https://github.com/wayofdev/php-package-tpl/commit/cc942b9861f005d040b19a8c4fdd1dc5e7c3258b))
+* **deps:** update dependency wayofdev/cs-fixer-config to v1.1.17 ([a1397e6](https://github.com/wayofdev/php-package-tpl/commit/a1397e60e07afb2912818162f331ed84d78c880a))
+
 ## [1.3.11](https://github.com/wayofdev/php-package-tpl/compare/v1.3.10...v1.3.11) (2023-04-19)
 
 
