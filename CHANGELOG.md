@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.24](https://github.com/wayofdev/php-package-tpl/compare/v1.3.23...v1.3.24) (2023-05-28)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/extension-installer to v1.3.1 ([b78a189](https://github.com/wayofdev/php-package-tpl/commit/b78a189869e0fe60e83137e9895b26626c3831ff))
+
 ## [1.3.23](https://github.com/wayofdev/php-package-tpl/compare/v1.3.22...v1.3.23) (2023-05-11)
 
 
