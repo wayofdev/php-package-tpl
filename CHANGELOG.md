@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.28](https://github.com/wayofdev/php-package-tpl/compare/v1.3.27...v1.3.28) (2023-05-28)
+
+
+### Miscellaneous
+
+* **deps:** update dependency wayofdev/cs-fixer-config to v1.2.6 ([2b25161](https://github.com/wayofdev/php-package-tpl/commit/2b2516143091217ef2ebeb6b77e488e3c406de82))
+
 ## [1.3.27](https://github.com/wayofdev/php-package-tpl/compare/v1.3.26...v1.3.27) (2023-05-28)
 
 
