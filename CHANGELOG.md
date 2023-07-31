@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.80](https://github.com/wayofdev/php-package-tpl/compare/v1.3.79...v1.3.80) (2023-07-31)
+
+
+### Miscellaneous
+
+* **deps:** update dependency pestphp/pest to v2.9.5 ([15d0ad8](https://github.com/wayofdev/php-package-tpl/commit/15d0ad8ccf37723b59f5423ec197aabbb384f87f))
+
 ## [1.3.79](https://github.com/wayofdev/php-package-tpl/compare/v1.3.78...v1.3.79) (2023-07-28)
 
 
