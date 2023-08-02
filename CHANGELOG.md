@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.81](https://github.com/wayofdev/php-package-tpl/compare/v1.3.80...v1.3.81) (2023-08-02)
+
+
+### Miscellaneous
+
+* **deps:** update dependency pestphp/pest to v2.10.1 ([2f2bb0d](https://github.com/wayofdev/php-package-tpl/commit/2f2bb0dbe15889ac03a80839e6c26235885b297c))
+* **deps:** update dependency wayofdev/cs-fixer-config to v1.2.36 ([6a78d2d](https://github.com/wayofdev/php-package-tpl/commit/6a78d2d41a8c026a9cd0d95db46ca1bc174f1f76))
+
 ## [1.3.80](https://github.com/wayofdev/php-package-tpl/compare/v1.3.79...v1.3.80) (2023-07-31)
 
 
