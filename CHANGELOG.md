@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.91](https://github.com/wayofdev/php-package-tpl/compare/v1.3.90...v1.3.91) (2023-08-11)
+
+
+### Miscellaneous
+
+* **deps:** update dependency ergebnis/composer-normalize to v2.35.0 ([d2ac2a5](https://github.com/wayofdev/php-package-tpl/commit/d2ac2a5ef51ab36b1d1fec9c120a7aefcb077032))
+
 ## [1.3.90](https://github.com/wayofdev/php-package-tpl/compare/v1.3.89...v1.3.90) (2023-08-08)
 
 
