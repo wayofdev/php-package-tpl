@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.96](https://github.com/wayofdev/php-package-tpl/compare/v1.3.95...v1.3.96) (2023-08-14)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/phpstan to v1.10.29 ([8b553f3](https://github.com/wayofdev/php-package-tpl/commit/8b553f3cd54b1d5990fb60ec3562c7426fbd09f4))
+
 ## [1.3.95](https://github.com/wayofdev/php-package-tpl/compare/v1.3.94...v1.3.95) (2023-08-14)
 
 
