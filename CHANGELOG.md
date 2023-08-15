@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.99](https://github.com/wayofdev/php-package-tpl/compare/v1.3.98...v1.3.99) (2023-08-15)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpunit/phpunit to v10.3.1 ([48e5d2c](https://github.com/wayofdev/php-package-tpl/commit/48e5d2c5c76bc4f58a88e70dcabd7a30a1936d53))
+
 ## [1.3.98](https://github.com/wayofdev/php-package-tpl/compare/v1.3.97...v1.3.98) (2023-08-14)
 
 
