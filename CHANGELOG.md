@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.115](https://github.com/wayofdev/php-package-tpl/compare/v1.3.114...v1.3.115) (2023-09-04)
+
+
+### Miscellaneous
+
+* **deps:** update actions/checkout action to v4 ([31aa7a4](https://github.com/wayofdev/php-package-tpl/commit/31aa7a486bb365432aad956cb8c0b80f8bee9b16))
+
 ## [1.3.114](https://github.com/wayofdev/php-package-tpl/compare/v1.3.113...v1.3.114) (2023-09-04)
 
 
