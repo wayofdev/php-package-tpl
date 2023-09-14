@@ -5877,16 +5877,16 @@
         },
         {
             "name": "wayofdev/cs-fixer-config",
-            "version": "v1.2.57",
+            "version": "v1.2.59",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/php-cs-fixer-config.git",
-                "reference": "de524e1f573fccef6e0b3e37b9b2a5d80dac8e93"
+                "reference": "da15c7b01289a86a670b3631558ee323694b2521"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/php-cs-fixer-config/zipball/de524e1f573fccef6e0b3e37b9b2a5d80dac8e93",
-                "reference": "de524e1f573fccef6e0b3e37b9b2a5d80dac8e93",
+                "url": "https://api.github.com/repos/wayofdev/php-cs-fixer-config/zipball/da15c7b01289a86a670b3631558ee323694b2521",
+                "reference": "da15c7b01289a86a670b3631558ee323694b2521",
                 "shasum": ""
             },
             "require": {
@@ -5937,7 +5937,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-09-08T10:14:05+00:00"
+            "time": "2023-09-12T15:46:23+00:00"
         },
         {
             "name": "webmozart/assert",
