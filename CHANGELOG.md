@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.127](https://github.com/wayofdev/php-package-tpl/compare/v1.3.126...v1.3.127) (2023-10-09)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/phpstan-phpunit to v1.3.15 ([03258b7](https://github.com/wayofdev/php-package-tpl/commit/03258b7d6e54b534a45a928a6dc49caad49be6b8))
+
 ## [1.3.126](https://github.com/wayofdev/php-package-tpl/compare/v1.3.125...v1.3.126) (2023-10-09)
 
 
