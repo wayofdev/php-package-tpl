@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.130](https://github.com/wayofdev/php-package-tpl/compare/v1.3.129...v1.3.130) (2023-10-30)
+
+
+### Miscellaneous
+
+* **deps:** update phpstan packages ([2b22809](https://github.com/wayofdev/php-package-tpl/commit/2b22809cee5b412b2b9ce4a726c42f42dfa46d2c))
+
 ## [1.3.129](https://github.com/wayofdev/php-package-tpl/compare/v1.3.128...v1.3.129) (2023-10-17)
 
 
